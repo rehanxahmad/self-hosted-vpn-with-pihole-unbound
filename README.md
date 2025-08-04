@@ -36,7 +36,9 @@ The modern internet landscape presents significant privacy and security challeng
 - **25-30%** of web content consists of advertisements and trackers
 - Average user generates **1,000-3,000 DNS queries per day**, revealing browsing patterns
 
-![SelfHost vs Commercial VPN Compare](assets/comparison.png)
+See how this self-hosted solution stacks up against major commercial VPN options and typical public DNS with ad-blocker setups:
+
+![SelfHost vs Commercial VPN options and typical public DNS with ad-blocker setups](assets/comparison-server.png)
 
 *Comparison between Self-Hosted VPN Server and Commercial VPN Services across key metrics*
 
