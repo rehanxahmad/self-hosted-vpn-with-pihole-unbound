@@ -1,0 +1,31 @@
+# PiHole Configuration Template
+# Custom settings for self-hosted VPN server
+
+# /etc/pihole/setupVars.conf
+PIHOLE_INTERFACE=eth0
+IPV4_ADDRESS=<PRIVATE_IP>/24
+IPV6_ADDRESS=
+PIHOLE_DNS_1=127.0.0.1#5335
+PIHOLE_DNS_2=127.0.0.1#5335
+QUERY_LOGGING=true
+INSTALL_WEB_SERVER=true
+INSTALL_WEB_INTERFACE=true
+LIGHTTPD_ENABLED=true
+CACHE_SIZE=10000
+DNS_FQDN_REQUIRED=true
+DNS_BOGUS_PRIV=true
+DNSMASQ_LISTENING=local
+BLOCKING_ENABLED=true
+
+# Custom Blocklists (add to PiHole admin interface)
+# https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+# https://someonewhocares.org/hosts/zero/hosts
+# https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/adservers.txt
+# https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+
+# Recommended Whitelist Domains
+# googleadservices.com (for Google Ads if needed)
+# googlesyndication.com (for some Google services)
+# amazon-adsystem.com (for Amazon affiliate links)
+# facebook.com (if using Facebook services)
+# youtube.com (to prevent YouTube issues)
